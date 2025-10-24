@@ -1,0 +1,47 @@
+{
+  "name": "example-react-vite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "packageManager": "pnpm@10.18.3",
+  "devDependencies": {
+    "@chromatic-com/storybook": "^4.1.1",
+    "@storybook/addon-a11y": "next",
+    "@storybook/addon-docs": "next",
+    "@storybook/addon-vitest": "next",
+    "@storybook/react-vite": "next",
+    "@types/react": "^19.2.2",
+    "@vitejs/plugin-react": "^5.1.0",
+    "@vitest/browser": "^3.2.4",
+    "@vitest/coverage-v8": "^3.2.4",
+    "msw": "^2.11.6",
+    "msw-storybook-addon": "^2.0.6",
+    "nx": "21.6.6",
+    "playwright": "^1.56.1",
+    "storybook": "next",
+    "storybook-mock-date-decorator": "file://../storybook-mock-date-decorator/pack2.tgz",
+    "vite": "^7.1.11",
+    "vitest": "^3.2.4"
+  },
+  "msw": {
+    "workerDirectory": [
+      "public"
+    ]
+  },
+  "imports": {
+    "#*": ["./*", "./*.ts", "./*.tsx"]
+  },
+  "nx": {},
+  "dependencies": {
+    "react": "^19.2.0"
+  }
+}

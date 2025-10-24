@@ -1,0 +1,26 @@
+.frog {
+  background-color: #55b95a;
+  color: rgb(13, 29, 2);
+  display: inline-block;
+  cursor: pointer;
+  border: 0;
+  border-radius: 3em;
+  font-weight: 700;
+  line-height: 1;
+  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.frog--small {
+  padding: 10px 16px;
+  font-size: 12px;
+  border-radius: 12px;
+}
+.frog--medium {
+  padding: 11px 20px;
+  font-size: 14px;
+  border-radius: 20px;
+}
+.frog--large {
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 24px;
+}
