@@ -28,7 +28,6 @@
     "nx": "21.6.6",
     "playwright": "^1.56.1",
     "storybook": "next",
-    "storybook-mock-date-decorator": "file://../storybook-mock-date-decorator/pack2.tgz",
     "vite": "^7.1.11",
     "vitest": "^3.2.4"
   },

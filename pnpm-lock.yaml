@@ -54,9 +54,6 @@ importers:
       storybook:
         specifier: next
         version: 10.0.0-rc.0(@testing-library/dom@10.4.1)(msw@2.11.6(typescript@5.9.3))(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(vite@7.1.11(yaml@2.8.1))
-      storybook-mock-date-decorator:
-        specifier: file://../storybook-mock-date-decorator/pack2.tgz
-        version: file:../storybook-mock-date-decorator/pack2.tgz(storybook@10.0.0-rc.0(@testing-library/dom@10.4.1)(msw@2.11.6(typescript@5.9.3))(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(vite@7.1.11(yaml@2.8.1)))
       vite:
         specifier: ^7.1.11
         version: 7.1.11(yaml@2.8.1)
@@ -1401,9 +1398,6 @@ packages:
     resolution: {integrity: sha512-qOOzS1cBTWYF4BH8fVePDBOO9iptMnGUEZwNc/cMWnTV2nVLZ7VoNWEPHkYczZA0pdoA7dl6e7FL659nX9S2aw==, tarball: https://registry.npmjs.org/minipass/-/minipass-7.1.2.tgz}
     engines: {node: '>=16 || 14 >=14.17'}
 
-  mockdate@3.0.5:
-    resolution: {integrity: sha512-iniQP4rj1FhBdBYS/+eQv7j1tadJ9lJtdzgOpvsOHng/GbcDh2Fhdeq+ZRldrPYdXvCyfFUmFeEwEGXZB5I/AQ==, tarball: https://registry.npmjs.org/mockdate/-/mockdate-3.0.5.tgz}
-
   mrmime@2.0.1:
     resolution: {integrity: sha512-Y3wQdFg2Va6etvQ5I82yUhGdsKrcYox6p7FfL1LbK2J4V01F9TGlepTIhnK24t7koZibmg82KGglhA1XK5IsLQ==, tarball: https://registry.npmjs.org/mrmime/-/mrmime-2.0.1.tgz}
     engines: {node: '>=10'}
@@ -1660,12 +1654,6 @@ packages:
 
   std-env@3.10.0:
     resolution: {integrity: sha512-5GS12FdOZNliM5mAOxFRg7Ir0pWz8MdpYm6AY6VPkGpbA7ZzmbzNcBJQ0GPvvyWgcY7QAhCgf9Uy89I03faLkg==, tarball: https://registry.npmjs.org/std-env/-/std-env-3.10.0.tgz}
-
-  storybook-mock-date-decorator@file:../storybook-mock-date-decorator/pack2.tgz:
-    resolution: {integrity: sha512-ZKwQ41O9HtcDCRdo2RH6GOtDsBeH63SORuZQ99UK1isA4XuG0W4RuU5hA1OH3eGV6c0E/3tg7nIiafpXjZUb/w==, tarball: file:../storybook-mock-date-decorator/pack2.tgz}
-    version: 3.0.0
-    peerDependencies:
-      storybook: ^9.0.0
 
   storybook@10.0.0-rc.0:
     resolution: {integrity: sha512-t5bLUv6vxLxV+cLYuoLfD4x856encstCRJ1L/DfnUcUHCfOvBVp+NodLo08oJPuhF4ykHmPey4MoT1A+2oThNg==, tarball: https://registry.npmjs.org/storybook/-/storybook-10.0.0-rc.0.tgz}
@@ -3178,8 +3166,6 @@ snapshots:
 
   minipass@7.1.2: {}
 
-  mockdate@3.0.5: {}
-
   mrmime@2.0.1: {}
 
   ms@2.1.3: {}
@@ -3493,11 +3479,6 @@ snapshots:
   statuses@2.0.2: {}
 
   std-env@3.10.0: {}
-
-  storybook-mock-date-decorator@file:../storybook-mock-date-decorator/pack2.tgz(storybook@10.0.0-rc.0(@testing-library/dom@10.4.1)(msw@2.11.6(typescript@5.9.3))(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(vite@7.1.11(yaml@2.8.1))):
-    dependencies:
-      mockdate: 3.0.5
-      storybook: 10.0.0-rc.0(@testing-library/dom@10.4.1)(msw@2.11.6(typescript@5.9.3))(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(vite@7.1.11(yaml@2.8.1))
 
   storybook@10.0.0-rc.0(@testing-library/dom@10.4.1)(msw@2.11.6(typescript@5.9.3))(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(vite@7.1.11(yaml@2.8.1)):
     dependencies:
